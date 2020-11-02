@@ -1,0 +1,30 @@
+@import '~antd/dist/antd.css';
+#TranferTreeComponent{
+  display: flex;
+  min-height: 300px;
+  max-height: 500px;
+  border: solid 1px #d0d0d0;
+  .Left-tree{
+    width: 50%;
+    overflow: auto;
+    border-right: solid 1px #d0d0d0;
+  }
+  .List-data{
+    flex:1;
+    text-align: center;
+    ul{
+      min-height: 240px;
+      cursor: default;
+      padding: 0;
+      li{
+        list-style: none;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 30px;
+        &:hover{
+          background-color: rgb(181, 202, 204);
+        }
+      }
+    }
+  }
+}

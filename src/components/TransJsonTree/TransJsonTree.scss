@@ -1,0 +1,32 @@
+@import '~antd/dist/antd.css';
+#TransJsonTreeComponent{
+  display: flex;
+  min-height: 300px;
+  max-height: 400px;
+  border: solid 1px #d0d0d0;
+  .Left-tree{
+    width: 50%;
+    overflow: auto;
+    border-right: solid 1px #d0d0d0;
+  }
+  .Middle{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .List-data{
+    flex:1;
+    min-height: 240px;
+    cursor: default;
+    padding: 0;
+    overflow: auto;
+    border-left: solid 1px #d0d0d0;
+  }
+  pre { padding: 5px; margin: 5px; }
+    .string { color: green; }
+    .number { color: darkorange; }
+    .boolean { color: blue; }
+    .null { color: magenta; }
+    .key { color: red; }
+}

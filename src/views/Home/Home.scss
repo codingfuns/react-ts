@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+#Main-wrap{
+  height: 100vh;
+}
+#Main-wrap .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+span{
+  cursor: default
+}
+
+#Main-wrap .logo {
+  height: 32px;
+  margin: 14px;
+  color: #ffffff;
+}
+#Main-wrap .logo img{
+  width: 48px;
+}
+#Main-wrap .header{
+  background: #ffffff;
+  box-shadow: 1px 1px 2px #888884;
+}
+#Main-wrap .side-wrapper{
+  flex: 0 0 256px !important;
+  max-width: 256px !important;
+  min-width: 256px !important;
+  width: 256px !important;
+}
